@@ -6,7 +6,9 @@ const Navigation = styled(Box)({
     height: "60px",
     backgroundColor: "#007FFF",
     color: "white",
-    width: "100%"
+    width: "100%",
+    position:"sticky",
+    top:"0"
 })
 
 const NavLogo = styled(Box)({

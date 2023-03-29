@@ -1,11 +1,12 @@
 import './App.css';
+import Contact from './Pages/Contact';
 import Layout from './Layout/MainLayout';
 
 
 function App() {
   return (
     <>
-    <Layout/>
+    <Layout content={<Contact/>}/>
     </>
   );
 }

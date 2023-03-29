@@ -5,10 +5,13 @@ function Sidebar(){
     const SideNav = styled(Box)({
         height: "100%",
         width: "15%",
-        backgroundColor: "grey",
+        backgroundColor: "#98c1d9",
         display: "flex",
         flexDirection: "column",
         padding:"10px",
+        position:"fixed",
+        top:"60px",
+        left:"0"
     })
 
     const Navlink = styled(Link)({
