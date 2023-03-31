@@ -1,7 +1,6 @@
 import Header from '../Components/Header';
 import Sidebar from '../Components/Sidebar';
 import { Box, styled } from '@mui/material';
-import Post from '../Pages/Post';
 
 const MainContent = styled(Box)({
     // backgroundColor:"blue",
@@ -25,8 +24,9 @@ function Layout(props){
             <Header/>
             <Sidebar/>
             <MainContent>
-                {/* {props.content} */}
-                <Post/>
+                {props.content}
+                {props.Post}
+                {props.PricePage}
             </MainContent>
         </MainContainer>
     )
