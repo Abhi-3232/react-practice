@@ -1,9 +1,15 @@
 import {Card,CardMedia,CardContent,Typography,CardActions,Button} from '@mui/material';
+import { useEffect } from 'react';
 
 function PostCard(props){
+   
+    useEffect(()=>{
+        console.log("hello world")
+    },[props.title]);
+
     return(
         <>
-        <Card sx={{maxWidth:"345px", margin:"5px"}}>
+        <Card sx={{maxWidth:"32%", margin:"5px"}}>
 
             <CardMedia sx={{height:140}} image={props.imageURL} title="Demo Image"/>
             <CardContent>

@@ -29,4 +29,4 @@ const array = [{title:"Keshav", description:"Lorem ipsum dolor sit amet consecte
     )
 }
 
-export default Post;
+export default Post; 

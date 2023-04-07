@@ -1,13 +1,13 @@
 import './App.css';
-// import Contact from './Pages/Contact';
 import Layout from './Layout/MainLayout';
-// import Post from './Pages/Post'
-import PricePage from './Pages/PricePage'
+// import Usestate from './Pages/Usestate'
+import Useeffect from './Pages/Useeffect'; 
+
 
 function App() {
   return (
     <>
-    <Layout PricePage={<PricePage/>}/>
+    <Layout content={<Useeffect/>}/>
     </>
   );
 }

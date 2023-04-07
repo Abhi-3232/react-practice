@@ -25,8 +25,6 @@ function Layout(props){
             <Sidebar/>
             <MainContent>
                 {props.content}
-                {props.Post}
-                {props.PricePage}
             </MainContent>
         </MainContainer>
     )
