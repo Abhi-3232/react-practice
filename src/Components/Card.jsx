@@ -2,10 +2,6 @@ import {Card,CardMedia,CardContent,Typography,CardActions,Button} from '@mui/mat
 import { useEffect } from 'react';
 
 function PostCard(props){
-   
-    useEffect(()=>{
-        console.log("hello world")
-    },[props.title]);
 
     return(
         <>
