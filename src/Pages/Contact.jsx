@@ -37,7 +37,7 @@ function Contact(){
 
     return(
     <ParentContainer>
-        <FormContainer onSubmit={onFormSubmit}>
+        <FormContainer onSubmit={onFormSubmit} >
                 <Typography variant="h5" sx={{color:"grey"}}>Form</Typography>
                 <StyledField label="Name" name="Name" variant="outlined" size="small" onChange={onChange}/>
                 <StyledField label="Last Name" name="Last Name" variant="outlined" size="small"  onChange={onChange}/>
